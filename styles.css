@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(study.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body,html{
+    min-height: 100%;
+}
+
+div.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+}
+
+label{
+    width: 140;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+input{
+    padding: 4px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #f9f9f9;
+    width: 7cm;
+    border-color: black;
+}
+
+
+.result{
+    text-align: center;
+}
+
+
+#submit{
+    margin-top: 7px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius:40px;
+    text-decoration: none;
+    background-color: green;
+}
+
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+
+#formWrapper{
+    background-color:darkseagreen;
+    display: flex;
+    width: 600px;
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+
